@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "QMUISwiftKit"
   spec.version      = "0.1.0"
-  spec.summary      = "A short description of QMUISwiftKit."
+  spec.summary      = "QMUISwiftKit"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -118,6 +118,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.framework     = 'UIKit', 'Foundation', 'QuartzCore', 'CoreText', 'CoreGraphics'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
