@@ -1,0 +1,22 @@
+{
+  "name": "QMUISwiftKit",
+  "version": "0.1.0",
+  "summary": "A short description of QMUISwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nacker/QMUISwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nacker": "nacker@163.com"
+  },
+  "source": {
+    "git": "https://github.com/nacker/QMUISwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QMUISwiftKit/Classes/**/*"
+}

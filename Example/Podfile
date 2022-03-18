@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QMUISwiftKit_Example' do
+  pod 'QMUISwiftKit', :path => '../'
+
+  target 'QMUISwiftKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

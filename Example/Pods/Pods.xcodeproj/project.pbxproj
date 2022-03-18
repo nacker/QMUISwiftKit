@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001A9BB7DE020EC9556EF01AFC622E0F /* QMUIFloatLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791359A487A1EF9C8E92EEDFD1C2347 /* QMUIFloatLayoutView.swift */; };
+		00558861DB4C484D1930B0229AA7793F /* NSAttributedString+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E995A91BC7F776234F85B173A5C8A2 /* NSAttributedString+QMUI.swift */; };
+		051A84CC1D4EB6ABC45ADCA1D80CE6FB /* QMUISwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECE31FC58F438719BB8D5DA41AF75A /* QMUISwiftKit-dummy.m */; };
+		0A4E4A1A35FAE2CE942951DACF563EDB /* QMUI_tips_error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 05E38F5C1B7CE69A26C4651F2B0CCF24 /* QMUI_tips_error@3x.png */; };
+		0BCCBBA752159CD2E57BE374CBB37157 /* QMUIToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802BBC3E3BBBA74BE5BA3BBA68F5E57 /* QMUIToastContentView.swift */; };
+		12E76B6FFF194DD0F48BB753BDD38C75 /* QMUIGhostButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235BDA27F1D75C594F8CE2B5EAD2385 /* QMUIGhostButton.swift */; };
+		152ABB7B591CE33D4B223C3113A6B807 /* QMUIFillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4E6E4987C2FA7D3C54D2E4F1F32B3 /* QMUIFillButton.swift */; };
+		157663423CC5F94CA6D31EEEF80BF000 /* QMUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE79938205DD316A92A44A8F21DE92C /* QMUITextView.swift */; };
+		165DF374D65908FAF21A5056F2A143FA /* UIColor+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A605B4B1108165BA2F4044E2346C43 /* UIColor+QMUI.swift */; };
+		182AB2DB398BE01FACAA882523EC0440 /* QMUIConfigurationMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7729C32FA8BB4E54F525E67FFF31E4D7 /* QMUIConfigurationMacros.swift */; };
+		18B4878A08C665595A5798283B40242D /* CALayer+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68EE9D7A6FA97D22BE7A16FF5932B2 /* CALayer+QMUI.swift */; };
+		1B65069A1E3199D9C69B28D260CE712D /* UINavigationBar+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650CF179EEC1892554FFDCCF4EBEB66 /* UINavigationBar+Transition.swift */; };
+		206E198563D23D14A6E0591BA94E18D3 /* NSObject+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7644D320053D9CA3F8B39E864583116B /* NSObject+QMUI.swift */; };
+		2133034EEEE062346679D28990DF4856 /* UIImageView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFE0A4B9F0315D1FA9CFF1BEC2067A0 /* UIImageView+QMUI.swift */; };
+		27A8814685738A1925B889C206263DD3 /* image5@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = B529F22A2931D7EAA3906084F14498D6 /* image5@2x.png */; };
+		29CFCDA0C29234ECACF3EF8F38B4D726 /* QMUIPopupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB154DEF369D958656A84E16AA81F /* QMUIPopupContainerView.swift */; };
+		2A0AA881DFB2652BEBAAFE60A22ADB46 /* QMUIImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35F4876E9364187B18ECADFEF6CB034 /* QMUIImagePickerHelper.swift */; };
+		2CB3EEA95AAB35D422B8FEC9CA8FB737 /* QMUIAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50B43B858A069D26FBD0D414017C00 /* QMUIAlbumViewController.swift */; };
+		2F16C2658C0595841EA4CB7C5DB6D5C6 /* UIView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66A487131CA60D29BA460097F4D1E01 /* UIView+QMUI.swift */; };
+		300F7EEDA3F96B0C65762D4E99080882 /* UITabBarItem+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D3AA27017D59DE8108177B5026874 /* UITabBarItem+QMUI.swift */; };
+		30BDCE25510CEDEC8881B8C12800CC49 /* UITextView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA33FA1CE0208F53F9E1949041F0AD6 /* UITextView+QMUI.swift */; };
+		327F463BA785194B445F18CF13513576 /* UIBarItem+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FED8D45155BA3F53306EF5C2484B2 /* UIBarItem+QMUI.swift */; };
+		33B9567C6893369D28868A28273C3C4C /* QMUI_icloud_download_fault@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A0D650A0E5F46C258C904EC291022E1C /* QMUI_icloud_download_fault@2x.png */; };
+		36A99D125F717930AD0549068C006C23 /* QMUILinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E4AAEBE525170C8BC7C98C8E0F19A /* QMUILinkButton.swift */; };
+		378F187D01F108E88E0F0EFAF803B9EE /* QMUITips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C6B6D70C32D8C4C921107422C929C8 /* QMUITips.swift */; };
+		3AD76676D8616F1334A7AA65EC3AC8EC /* UIFont+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15926F211328449157079AF1E2E88722 /* UIFont+QMUI.swift */; };
+		3B084300C42C07005B62A870155A6698 /* QMUITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47159EB801121BFFDAA5B9C4A4EA350 /* QMUITabBarViewController.swift */; };
+		3B15F9F9B4EEE4FA12098D9AB9CC1A9D /* UIImage+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDAAE29FB804CEBFD753CB612B6FD77 /* UIImage+QMUI.swift */; };
+		3BE751E37FD7B34701B47491FC363727 /* QMUIToastBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD93BF9346203BF8B975C733147E6E /* QMUIToastBackgroundView.swift */; };
+		3D3073808FAFA6DD9E28AECA72B0ED98 /* QMUI_pickerImage_checkbox_checked@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = FE448C0FF030E921801ECA9D57D0E21F /* QMUI_pickerImage_checkbox_checked@2x.png */; };
+		3FC480F2F33ACC2A3D3F37B77D0D7D8D /* QMUITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA50CFBB0636F8DE9B0ED8F0B851D /* QMUITestView.swift */; };
+		426EF292821FCE4D2C625D4A2B5D6D22 /* UIScrollView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53F155D80170FBDBE32769D12EBE31 /* UIScrollView+QMUI.swift */; };
+		4402D023A414B90CAE8C5BA54E614A15 /* image0@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CCB0C5D1C1FD13D691C9843B4C205FCC /* image0@2x.png */; };
+		447078628A3BED51CF4942AFF0859E7C /* UISearchBar+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9768CAB6601501007628423623084172 /* UISearchBar+QMUI.swift */; };
+		4C13AE4865438001F9A1EBAAA829E72C /* Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C378897C4FBF013687CD21B5A60814 /* Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD8A8554A885A97B28BEAE0FA050F5A /* NSParagraphStyle+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668F3F85316C13217567E0ACFC4A85A /* NSParagraphStyle+QMUI.swift */; };
+		4F2A2104D0D8044D9032CF4799E0BC96 /* image3@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = EA3BFDA1D0698C915536845CDD562506 /* image3@2x.png */; };
+		4FA31A7E332D22AE497160116E177045 /* QMUI_pickerImage_video_mark@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F3529077894386BCEC3B0069E2943 /* QMUI_pickerImage_video_mark@3x.png */; };
+		4FD1E108883796E94A5E40DD2A85CC52 /* QMUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66037FF2FC8D75886787C83A817320E /* QMUITableView.swift */; };
+		5046FA7D09FEB68BF3D60280FA34CBA8 /* QMUISearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF88AAE8433CDE00801BD0DD535E62 /* QMUISearchController.swift */; };
+		521133E36237BFF29057FEE1C5798562 /* QMUI_pickerImage_checkbox_checked@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7A1206ACB43500280AF1C13120A67 /* QMUI_pickerImage_checkbox_checked@3x.png */; };
+		5216C56F70DAA11298D580F1074D6B6B /* DispatchQueue+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D8AAEEA56B47B3539743DC88BF4AB /* DispatchQueue+QMUI.swift */; };
+		53B2E95C7B11A3CDC3B7EB59918650C8 /* UINavigationController+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D3B000574F216D5734DD80B4DC45 /* UINavigationController+QMUI.swift */; };
+		54B1D9EFA2C71F4A0E08F54F30B4C05F /* QMUI_tips_info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = D91F47DAF248937F0FDC4159CC7D4A9B /* QMUI_tips_info@3x.png */; };
+		55B1CC4D5DAE6BB72EFEA201D98EFEA0 /* QMUI_tips_done@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C8E8F012F2453CCBDEC726C581B11A05 /* QMUI_tips_done@2x.png */; };
+		561FB8F1E0DB54804454BB8B77D75C90 /* QMUI_emotion_delete@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 52BBD279FDD9CE71135F05A71B6575E8 /* QMUI_emotion_delete@2x.png */; };
+		5A02E652815D45679455B49660B56B04 /* QMUIAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7D664767A1C1E326CC4A4306AB390 /* QMUIAsset.swift */; };
+		5AC3899BC915C15B36F3D24F182DDED3 /* QMUICommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD34EFFD5E4A0513EE9A326722E2AEF /* QMUICommonTableViewController.swift */; };
+		5CAC3DB7BB5A87B8251A0F37D1C43E14 /* QMUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41D8A96A9814FB5D0EF262B2A47177 /* QMUITextField.swift */; };
+		5CD28F45D3EE114EBE9C7FB712A4140C /* QMUIDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23B407ACFD15098463FD0F875371BA0 /* QMUIDialogViewController.swift */; };
+		664F7AB6BBC1980ED778A2AAE227FB28 /* QMUIStaticTableViewCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069EE6D4AC5AC6834DD0D6DB0BEC1E35 /* QMUIStaticTableViewCellDataSource.swift */; };
+		68AB1873D5E61EE3A76E4FD035172617 /* UIGestureRecognizer+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91A816A418015B9356917668518562 /* UIGestureRecognizer+QMUI.swift */; };
+		6A5C1AFBCF970A8AEC9B170A1E46B570 /* QMUIMarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B85A7A9A8A8CEA94B00D7C64EC15C2 /* QMUIMarqueeLabel.swift */; };
+		6ADADBF89AC12D63DD1C399815435613 /* QMUI_tips_info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 64A35B37926AEA23F92DB721B01D1DB0 /* QMUI_tips_info@2x.png */; };
+		6C44F04CB28DC6787A75216988E49D72 /* QMUICollectionViewPagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9AAF6B94E0EA2FF8E28DB8D5E67B3B /* QMUICollectionViewPagingLayout.swift */; };
+		6EA4286E497AD45F2C10DD6D152DF09E /* QMUI_previewImage_checkbox@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = EC182C5C17FC020E29195646CC7C5988 /* QMUI_previewImage_checkbox@2x.png */; };
+		6FED765F31DE0526C9DEDF3F5A34DE18 /* QMUITableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EAB10B79C906B3466B720D183453F /* QMUITableViewHeaderFooterView.swift */; };
+		703726E793889C189478F788E2FF7E18 /* QMUIQQEmotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E072AA063057B71B528985AB80B8657 /* QMUIQQEmotionManager.swift */; };
+		70F1A2C16F7AEF7932ECFAA755A6F67D /* QMUICellHeightKeyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B21AD7BC057D4B9195829ECF60DCE0 /* QMUICellHeightKeyCache.swift */; };
+		72C487701940F37FB44D0B5359C28DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73DFACBB3D4A7F51775A12FF1E9CD3E4 /* QMUIImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235AB7E0190512A2C3A6DE294E823765 /* QMUIImagePickerViewController.swift */; };
+		777631EA0001AB50E691519F108F79A6 /* QMUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6E716E15EBAE9C3D2D93806730FD7 /* QMUISlider.swift */; };
+		778E6DA652791A50D432B8C8C441BCC3 /* UITableView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FABA23625EB080A2950D4E67903CD /* UITableView+QMUI.swift */; };
+		7994695AE7AAFEAD641707CDFC229630 /* QMUIKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE704B49D005BD642CA0BE90366ECFC /* QMUIKeyboardManager.swift */; };
+		79A7F8CBB48CA5049E3FBF4729CF19B9 /* QMUIEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF2B32CD46D3D6A03E4C307887DA8 /* QMUIEmptyView.swift */; };
+		7A531606ACC04877ABA4835C5A5F20C4 /* UIBezierPath+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3B48E95D10C10CC315D782D6CF95DD /* UIBezierPath+QMUI.swift */; };
+		7BB07016840B9D48BB89432AF980E429 /* QMUINavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88A5627A8B78BBAF51E17A4F2E04DB /* QMUINavigationButton.swift */; };
+		7D1E4A8A01126ADE2A9CFDA9A885F73D /* SelfAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DE7EFB9C6B632BD314A610539B74F5 /* SelfAware.swift */; };
+		7D9006FFCDA3D5007BA51D6B4A375F86 /* UIWindow+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6A56D70651634DA95844A2B7CF2BA /* UIWindow+QMUI.swift */; };
+		82755AF8CC8C7FA38FD16EDE18F9B734 /* QMUIVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F962B94A0B63319C5C0AC05803A719AD /* QMUIVisualEffectView.swift */; };
+		82D8E8C5FAE0D0E97E5007D255B085C7 /* String+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCA8DC82DE60DB172B7C273E3EB547 /* String+QMUI.swift */; };
+		8636B4B20CD1152645BFA2453D8DA191 /* UIButton+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A02FFB50E98D45FEFDDE03FAD5B56 /* UIButton+QMUI.swift */; };
+		881AD60FD3DBD2413DC16F56475C108B /* Pods-QMUISwiftKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C04F8E42EB279E6A969B470EF6F036 /* Pods-QMUISwiftKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B4D51332C0918FD5BD3618C0D32552 /* QMUICellHeightIndexPathCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B354C8492322EA77C257CB187E180E9 /* QMUICellHeightIndexPathCache.swift */; };
+		8D977316290FC57BC180B485F1D3EEC3 /* UICollectionView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C843954C0207F71177DD1AB256F9B /* UICollectionView+QMUI.swift */; };
+		8F18F91AEDEC91407B481F59784C5CB7 /* QMUIToastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB134D19E305993D8DE295B0E45D71F9 /* QMUIToastAnimator.swift */; };
+		8FF09AA4AE79119273A815658E0FEEE8 /* QMUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB21599E8555997FFF2B182B90FAD6 /* QMUIHelper.swift */; };
+		916262C3BC8F7C5FF947CAB5708CA695 /* QMUIImagePickerPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51F5203FE64CF38B741FB4D68E6A8B /* QMUIImagePickerPreviewViewController.swift */; };
+		92A3E44006979D8CA608974743BDE2B2 /* QMUI_tips_error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DB7D675016F17DA65A6DCD61F87295E4 /* QMUI_tips_error@2x.png */; };
+		9332E7C379E6BEEF4D41244C8283AE63 /* QMUIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B3D635DE71576E68B72679551D4AF /* QMUIGridView.swift */; };
+		9683ED5B51DFD684F418BEFE261DF16D /* QMUITableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A138DCA537DAAC2704E6C976D21870 /* QMUITableViewProtocols.swift */; };
+		96915C610E845FE6C900028017799EDC /* QMUISwiftKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69323928AA1FCC9BA2C99ADB73398E37 /* QMUISwiftKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9875D8BAB38C81DA077FF5317A13101E /* QMUI_pickerImage_checkbox@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 44F0C163D6D7EF9773D518FB4FA1484B /* QMUI_pickerImage_checkbox@2x.png */; };
+		9956782AA64353013103289BABA9DAD5 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B286FA34F868E606D90F815242915501 /* Curry.swift */; };
+		9A7844BA40E16311CEAA55184E41821C /* image6@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 130B5E66A844C6CF3FE026503EC17BE1 /* image6@2x.png */; };
+		9C26D30724788621849DC478D284CA6E /* UIControl+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3464EE97A2F2BE3B764B48AD4D025A2B /* UIControl+QMUI.swift */; };
+		9F0E880ED22A7E94969AE5F718FAD1BF /* QMUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6914124ACD6E8F1F8601E7BE390B5 /* QMUILabel.swift */; };
+		9F4B0211675ACD7E5D3F78F61E176D8D /* Array+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AA8D5A9810F32288176C85B181E1 /* Array+QMUI.swift */; };
+		A14999772EB480780593662D8B8A54C6 /* QMUIToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B404B835800E33B3B73EA958ABEDD /* QMUIToastView.swift */; };
+		A24345FF7FCB67E0D00844E06DC8CD23 /* QMUICommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC297997668B9BAFEC6DA700F43E522 /* QMUICommonViewController.swift */; };
+		A404F940C6B477849742A3667F6055C9 /* QMUINavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC783954BABE2598DB87EE7F0D37E3 /* QMUINavigationTitleView.swift */; };
+		A5779D391FE07966772973281967E96F /* QMUIImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65092A2B5C94725900949EB508D6CB31 /* QMUIImagePickerCollectionViewCell.swift */; };
+		A6CA68F5643B5B26275F251E6BFDBBC9 /* UILabel+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBAFC13BBD613BD7C7627965A27AD1 /* UILabel+QMUI.swift */; };
+		A92F743608C3CC4CAA69C11FAE15723A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB19D1E46F503871A27D9935D93AAA03 /* QMUIEmotionInputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E72C29CBE3AE14DD749CCCF3EB2FF /* QMUIEmotionInputManager.swift */; };
+		AB2A14AE5942C51A703200F14C4CD41D /* image4@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3CBEA0F6B4E848942EA72E5860D194D5 /* image4@2x.png */; };
+		AF8A6FA73A384A16E58202CFD605BFE8 /* UINavigationController+NavigationBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B5F042E50AE249BFBD2373D20AEFB /* UINavigationController+NavigationBarTransition.swift */; };
+		B1D05C9257A75C4E0737171839CC71F4 /* Pods-QMUISwiftKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11DC56EB5BF61D6A7F534C89FBE56E5 /* Pods-QMUISwiftKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2090CAC7173F8A2766CD78655BC1D27 /* QMUIEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA462103CB05BD2F81EEE1C50C21F4B7 /* QMUIEmotionView.swift */; };
+		B4F018AEAF0CD7F428F446910998FCF6 /* QMUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D27EEFA07F83D66B54B0C44D71783 /* QMUIButton.swift */; };
+		B79FC341A3A90346D2BD9194BDC23129 /* QMUIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A5C535AE571BF4C1C418EEA032195 /* QMUIAlertController.swift */; };
+		B9D91722A66FB4BF495CCE050C5DED9A /* QMUIAssetsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6865056B2EF42FE9EA73FE7EA561959C /* QMUIAssetsGroup.swift */; };
+		BA4ED19130B5D66C7F4A91674F91816B /* QMUI_icloud_download_fault@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 72F1FE773134AEC97184497E7068EE22 /* QMUI_icloud_download_fault@3x.png */; };
+		BC8B0BB4EDE0694896D83AB4AA050B35 /* QMUIPieProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B08017542D6888EF86E7087A8D43 /* QMUIPieProgressView.swift */; };
+		BD3D655B4D813D8DBE0BF21A2913A9C6 /* QMUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3B4C0A0E66B1F2CB0453ADBB114C1 /* QMUIConfiguration.swift */; };
+		C15733C5AADE8C2E8B0924E4B0ADBF29 /* QMUISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA787D7800B2AC618F952DECAC9F73 /* QMUISegmentedControl.swift */; };
+		C1655028187B88661A9A2EF28A136DE2 /* image1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F0426B8CBFBF9FA3A7C0D7223380C /* image1@2x.png */; };
+		C508A93B9B35EACBEA9CA5CBD9E0D1B0 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 764CFF981B3A1B10435D1DED24413C71 /* Info.plist */; };
+		C628C985052BE7E8FCFF2559F466F06F /* QMUI_previewImage_checkbox_checked@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = B08CE2455AF0ECC832FA25B88D90988A /* QMUI_previewImage_checkbox_checked@3x.png */; };
+		C747541A41FB75F2DA4A307893675A80 /* QMUIPopupMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB373FBCA639BBF84E5416A065524AC /* QMUIPopupMenuView.swift */; };
+		C865C116359AF45E3238DE3EC2770B86 /* QMUI_pickerImage_checkbox@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3B806F4FBD1D25E96826BD011AA95 /* QMUI_pickerImage_checkbox@3x.png */; };
+		CA3ADF46F7731D620674D0664A717CC8 /* UIViewController+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBB68A1D71A3E6A1D185A58B7FCC9C7 /* UIViewController+QMUI.swift */; };
+		CA71D2EC927A0B25323C8BF81627F6CF /* QMUIAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4A25B7FD7071BC6D7620B0571DA82 /* QMUIAssetsManager.swift */; };
+		CB032DE7DF608B48D24C120D94BEFB9C /* QMUI_tips_done@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 461657808DD572B92F40ED6F55C0721C /* QMUI_tips_done@3x.png */; };
+		CB0AA98D5DE30DA8BA50E6522577B3C4 /* QMUI_previewImage_checkbox@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 253654B5BDC2DA575CC31C05D352B2C4 /* QMUI_previewImage_checkbox@3x.png */; };
+		CDD2E79A8C83D11C5997DCF73E4F61AB /* QMUIMoreOperationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D91319AD1BBE3784791119182A40FF /* QMUIMoreOperationController.swift */; };
+		CF0C4E5490B176B79C33A5D189946B35 /* QMUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340DA18C5B1484609E0FBE3476AF4E7 /* QMUISearchBar.swift */; };
+		D0B7A879E7C3050F6B3E96A5D956DF43 /* QMUI_emotion_delete@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = F7108F6CADF5695C68443B2D20CDB8D5 /* QMUI_emotion_delete@3x.png */; };
+		D11752893DB8D34B417D9F2B28D4EFA0 /* QMUI_previewImage_checkbox_checked@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 299862361C6D96BE3038866C4EFF1CD3 /* QMUI_previewImage_checkbox_checked@2x.png */; };
+		D4D7B57E58101D2CFD702F79B34C943B /* QMUICommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B1F9BCDC9516B9567111DC04D34BE /* QMUICommonDefines.swift */; };
+		D77DBF47977BCE294AECF845B8761E7E /* image2@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8CF237B665F50140C7F051A9AD04B2DA /* image2@2x.png */; };
+		DBD402236B269332E5132785AF8512EC /* QMUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C58ED68A0D27F025ACB5F3C06C93F80 /* QMUITableViewCell.swift */; };
+		DD8ACA993F0850233D49759D367954D2 /* UITextField+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C39BD91169D426E563D5E64D502F093 /* UITextField+QMUI.swift */; };
+		DDBA01C5BC04494315FA14FDD4E23A90 /* QMUIImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25FE01050295CE782B79E8A9A23237D /* QMUIImagePreviewViewController.swift */; };
+		DE1534612249C22C44A285303C2C0D83 /* UIActivityIndicatorView+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF22916AE81D684F796C8CA31C9DD73 /* UIActivityIndicatorView+QMUI.swift */; };
+		DEBD0285CB59A24B58CFF63BDD3D4B23 /* QMUIToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEE6C8D9650016338248227FBCEA69 /* QMUIToolbarButton.swift */; };
+		E0FFC35BA34ECA5FCAD0EB60EFB07634 /* QMUIImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9787DAB1BC1687BB3262F47A7976C74 /* QMUIImagePreviewView.swift */; };
+		E2DD0F0980CDD40CC23289044D8808FA /* Pods-QMUISwiftKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FD19B89A81D9181EA71266A9FFA2D /* Pods-QMUISwiftKit_Tests-dummy.m */; };
+		E4A9214E3BC287F9904141DC7DDE7071 /* Pods-QMUISwiftKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF6C40D2E1D776D8EA874B93F4D758 /* Pods-QMUISwiftKit_Example-dummy.m */; };
+		E54B859E884D612FDC7C1809DEF7C9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF9B8BAE49B929F7854E003280058F9F /* UITabBar+QMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16EF6A9EA8338C6DC1EB828D44C9286 /* UITabBar+QMUI.swift */; };
+		F1B47C7FD478C24089D55C89E6ABC398 /* QMUI_pickerImage_video_mark@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CC61896A29975C5C57908569B22710E9 /* QMUI_pickerImage_video_mark@2x.png */; };
+		F890D6D06C2838B6237D8BE559409A93 /* QMUIModalPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53823C064800228339FCA84BFC8918E8 /* QMUIModalPresentationViewController.swift */; };
+		F9419D6FA71457473EEA525EFA052B39 /* QMUIZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914339F9E5FDD37B45A417D361EBB07F /* QMUIZoomImageView.swift */; };
+		FD19589A2088778D08299E0880D661BF /* QMUIOrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E20984414DDC0998F9FB094A326C2 /* QMUIOrderedDictionary.swift */; };
+		FEBCCF5C91B8BC1183BDCCE58C63CD52 /* QMUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42CAAC60EE5BFE428B146601BB0601D /* QMUINavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		359E1B77FB1C7C6817A2D1C59700827D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114DEFCBFB36B7B322A27DE7AC5D034E;
+			remoteInfo = "Pods-QMUISwiftKit_Example";
+		};
+		FE50D3F1B56238B3BD8067EC212853B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7732D9CE4D30179195A6E5E8EA75BC1;
+			remoteInfo = QMUISwiftKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E38F5C1B7CE69A26C4651F2B0CCF24 /* QMUI_tips_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_error@3x.png"; sourceTree = "<group>"; };
+		069EE6D4AC5AC6834DD0D6DB0BEC1E35 /* QMUIStaticTableViewCellDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIStaticTableViewCellDataSource.swift; sourceTree = "<group>"; };
+		07C6E716E15EBAE9C3D2D93806730FD7 /* QMUISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUISlider.swift; sourceTree = "<group>"; };
+		0B68EE9D7A6FA97D22BE7A16FF5932B2 /* CALayer+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+QMUI.swift"; sourceTree = "<group>"; };
+		0BBBAFC13BBD613BD7C7627965A27AD1 /* UILabel+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+QMUI.swift"; sourceTree = "<group>"; };
+		0D6764EDF15DA51CA97D3D1B74364F5C /* Pods-QMUISwiftKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMUISwiftKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		130B5E66A844C6CF3FE026503EC17BE1 /* image6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image6@2x.png"; sourceTree = "<group>"; };
+		13CEE6C8D9650016338248227FBCEA69 /* QMUIToolbarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIToolbarButton.swift; sourceTree = "<group>"; };
+		14650D978E61674C04DC5692A061ABC4 /* Pods-QMUISwiftKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMUISwiftKit_Example-Info.plist"; sourceTree = "<group>"; };
+		15926F211328449157079AF1E2E88722 /* UIFont+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+QMUI.swift"; sourceTree = "<group>"; };
+		1C194D8AF773158A03AF0B6DEEBA869D /* Pods-QMUISwiftKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMUISwiftKit_Tests.modulemap"; sourceTree = "<group>"; };
+		1E072AA063057B71B528985AB80B8657 /* QMUIQQEmotionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIQQEmotionManager.swift; sourceTree = "<group>"; };
+		21DE7EFB9C6B632BD314A610539B74F5 /* SelfAware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfAware.swift; path = QMUISwiftKit/Classes/SelfAware.swift; sourceTree = "<group>"; };
+		235AB7E0190512A2C3A6DE294E823765 /* QMUIImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePickerViewController.swift; sourceTree = "<group>"; };
+		24B5AA8D5A9810F32288176C85B181E1 /* Array+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+QMUI.swift"; sourceTree = "<group>"; };
+		24FC9E7B9085AFBDFB73B09609A314A8 /* QMUISwiftKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QMUISwiftKit-Info.plist"; sourceTree = "<group>"; };
+		253654B5BDC2DA575CC31C05D352B2C4 /* QMUI_previewImage_checkbox@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_previewImage_checkbox@3x.png"; sourceTree = "<group>"; };
+		299862361C6D96BE3038866C4EFF1CD3 /* QMUI_previewImage_checkbox_checked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_previewImage_checkbox_checked@2x.png"; sourceTree = "<group>"; };
+		2BF22916AE81D684F796C8CA31C9DD73 /* UIActivityIndicatorView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+QMUI.swift"; sourceTree = "<group>"; };
+		2E6D3AA27017D59DE8108177B5026874 /* UITabBarItem+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+QMUI.swift"; sourceTree = "<group>"; };
+		310697018EC471F5E31927ED5FC6B770 /* QMUISwiftKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMUISwiftKit.modulemap; sourceTree = "<group>"; };
+		32A72E07DF64481343024172400C054B /* Pods-QMUISwiftKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QMUISwiftKit_Tests"; path = Pods_QMUISwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		337CA50CFBB0636F8DE9B0ED8F0B851D /* QMUITestView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITestView.swift; sourceTree = "<group>"; };
+		3464EE97A2F2BE3B764B48AD4D025A2B /* UIControl+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+QMUI.swift"; sourceTree = "<group>"; };
+		350D8AAEEA56B47B3539743DC88BF4AB /* DispatchQueue+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+QMUI.swift"; sourceTree = "<group>"; };
+		38780B2C252DA5CCCCEC34D7AC57EFAB /* Pods-QMUISwiftKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMUISwiftKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		3C58ED68A0D27F025ACB5F3C06C93F80 /* QMUITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITableViewCell.swift; sourceTree = "<group>"; };
+		3CBEA0F6B4E848942EA72E5860D194D5 /* image4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image4@2x.png"; sourceTree = "<group>"; };
+		3D5EAB10B79C906B3466B720D183453F /* QMUITableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		3E0B8A0326D5224E45A9E95B8909F95A /* QMUISwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMUISwiftKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EE4A25B7FD7071BC6D7620B0571DA82 /* QMUIAssetsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIAssetsManager.swift; sourceTree = "<group>"; };
+		3EECE31FC58F438719BB8D5DA41AF75A /* QMUISwiftKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMUISwiftKit-dummy.m"; sourceTree = "<group>"; };
+		3F4F0426B8CBFBF9FA3A7C0D7223380C /* image1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image1@2x.png"; sourceTree = "<group>"; };
+		404E4AAEBE525170C8BC7C98C8E0F19A /* QMUILinkButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUILinkButton.swift; sourceTree = "<group>"; };
+		41A138DCA537DAAC2704E6C976D21870 /* QMUITableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITableViewProtocols.swift; sourceTree = "<group>"; };
+		44984ECD955FB56E985EDC798253BCBC /* Pods-QMUISwiftKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMUISwiftKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44F0C163D6D7EF9773D518FB4FA1484B /* QMUI_pickerImage_checkbox@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_checkbox@2x.png"; sourceTree = "<group>"; };
+		451FABA23625EB080A2950D4E67903CD /* UITableView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+QMUI.swift"; sourceTree = "<group>"; };
+		461657808DD572B92F40ED6F55C0721C /* QMUI_tips_done@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_done@3x.png"; sourceTree = "<group>"; };
+		47D24788CE44721F7F3E1AAFFA0B726C /* Pods-QMUISwiftKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QMUISwiftKit_Example"; path = Pods_QMUISwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD3B806F4FBD1D25E96826BD011AA95 /* QMUI_pickerImage_checkbox@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_checkbox@3x.png"; sourceTree = "<group>"; };
+		4F9AAF6B94E0EA2FF8E28DB8D5E67B3B /* QMUICollectionViewPagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICollectionViewPagingLayout.swift; sourceTree = "<group>"; };
+		4FF7A1206ACB43500280AF1C13120A67 /* QMUI_pickerImage_checkbox_checked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_checkbox_checked@3x.png"; sourceTree = "<group>"; };
+		52BBD279FDD9CE71135F05A71B6575E8 /* QMUI_emotion_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		53823C064800228339FCA84BFC8918E8 /* QMUIModalPresentationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIModalPresentationViewController.swift; sourceTree = "<group>"; };
+		5650CF179EEC1892554FFDCCF4EBEB66 /* UINavigationBar+Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Transition.swift"; sourceTree = "<group>"; };
+		5CA33FA1CE0208F53F9E1949041F0AD6 /* UITextView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+QMUI.swift"; sourceTree = "<group>"; };
+		5F8B404B835800E33B3B73EA958ABEDD /* QMUIToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIToastView.swift; sourceTree = "<group>"; };
+		5FB373FBCA639BBF84E5416A065524AC /* QMUIPopupMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIPopupMenuView.swift; sourceTree = "<group>"; };
+		60E995A91BC7F776234F85B173A5C8A2 /* NSAttributedString+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+QMUI.swift"; sourceTree = "<group>"; };
+		636B3D635DE71576E68B72679551D4AF /* QMUIGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIGridView.swift; sourceTree = "<group>"; };
+		64A35B37926AEA23F92DB721B01D1DB0 /* QMUI_tips_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_info@2x.png"; sourceTree = "<group>"; };
+		65092A2B5C94725900949EB508D6CB31 /* QMUIImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		673E20984414DDC0998F9FB094A326C2 /* QMUIOrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIOrderedDictionary.swift; sourceTree = "<group>"; };
+		677B5F042E50AE249BFBD2373D20AEFB /* UINavigationController+NavigationBarTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+NavigationBarTransition.swift"; sourceTree = "<group>"; };
+		6865056B2EF42FE9EA73FE7EA561959C /* QMUIAssetsGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIAssetsGroup.swift; sourceTree = "<group>"; };
+		69323928AA1FCC9BA2C99ADB73398E37 /* QMUISwiftKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUISwiftKit-umbrella.h"; sourceTree = "<group>"; };
+		6B354C8492322EA77C257CB187E180E9 /* QMUICellHeightIndexPathCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICellHeightIndexPathCache.swift; sourceTree = "<group>"; };
+		6B41D8A96A9814FB5D0EF262B2A47177 /* QMUITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITextField.swift; sourceTree = "<group>"; };
+		6C39BD91169D426E563D5E64D502F093 /* UITextField+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+QMUI.swift"; sourceTree = "<group>"; };
+		6CE704B49D005BD642CA0BE90366ECFC /* QMUIKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIKeyboardManager.swift; sourceTree = "<group>"; };
+		6CFB21599E8555997FFF2B182B90FAD6 /* QMUIHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIHelper.swift; sourceTree = "<group>"; };
+		6FAC783954BABE2598DB87EE7F0D37E3 /* QMUINavigationTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUINavigationTitleView.swift; sourceTree = "<group>"; };
+		72F1FE773134AEC97184497E7068EE22 /* QMUI_icloud_download_fault@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_icloud_download_fault@3x.png"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7644D320053D9CA3F8B39E864583116B /* NSObject+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+QMUI.swift"; sourceTree = "<group>"; };
+		764CFF981B3A1B10435D1DED24413C71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7729C32FA8BB4E54F525E67FFF31E4D7 /* QMUIConfigurationMacros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIConfigurationMacros.swift; sourceTree = "<group>"; };
+		7802BBC3E3BBBA74BE5BA3BBA68F5E57 /* QMUIToastContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIToastContentView.swift; sourceTree = "<group>"; };
+		7A2E72C29CBE3AE14DD749CCCF3EB2FF /* QMUIEmotionInputManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIEmotionInputManager.swift; sourceTree = "<group>"; };
+		7CB0B3235E269D9EC52E4E1DD97DA20C /* Pods-QMUISwiftKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMUISwiftKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CCD93BF9346203BF8B975C733147E6E /* QMUIToastBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIToastBackgroundView.swift; sourceTree = "<group>"; };
+		80D91319AD1BBE3784791119182A40FF /* QMUIMoreOperationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIMoreOperationController.swift; sourceTree = "<group>"; };
+		80FF88AAE8433CDE00801BD0DD535E62 /* QMUISearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUISearchController.swift; sourceTree = "<group>"; };
+		83C6B6D70C32D8C4C921107422C929C8 /* QMUITips.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITips.swift; sourceTree = "<group>"; };
+		86A605B4B1108165BA2F4044E2346C43 /* UIColor+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+QMUI.swift"; sourceTree = "<group>"; };
+		88770F570292E592D81EEC790258FD57 /* Pods-QMUISwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMUISwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89C0D3B000574F216D5734DD80B4DC45 /* UINavigationController+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+QMUI.swift"; sourceTree = "<group>"; };
+		8AC297997668B9BAFEC6DA700F43E522 /* QMUICommonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICommonViewController.swift; sourceTree = "<group>"; };
+		8BF6914124ACD6E8F1F8601E7BE390B5 /* QMUILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUILabel.swift; sourceTree = "<group>"; };
+		8C1A02FFB50E98D45FEFDDE03FAD5B56 /* UIButton+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+QMUI.swift"; sourceTree = "<group>"; };
+		8CF237B665F50140C7F051A9AD04B2DA /* image2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image2@2x.png"; sourceTree = "<group>"; };
+		8E0F3529077894386BCEC3B0069E2943 /* QMUI_pickerImage_video_mark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_video_mark@3x.png"; sourceTree = "<group>"; };
+		8F53F155D80170FBDBE32769D12EBE31 /* UIScrollView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+QMUI.swift"; sourceTree = "<group>"; };
+		914339F9E5FDD37B45A417D361EBB07F /* QMUIZoomImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIZoomImageView.swift; sourceTree = "<group>"; };
+		9214B08017542D6888EF86E7087A8D43 /* QMUIPieProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIPieProgressView.swift; sourceTree = "<group>"; };
+		94CF226FBF53E3B6725117BBF7FB5B19 /* QMUISwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUISwiftKit-prefix.pch"; sourceTree = "<group>"; };
+		96A4E6E4987C2FA7D3C54D2E4F1F32B3 /* QMUIFillButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIFillButton.swift; sourceTree = "<group>"; };
+		9749B6AFCD847FFFE3A0BF56E4CE94B4 /* Pods-QMUISwiftKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMUISwiftKit_Example.modulemap"; sourceTree = "<group>"; };
+		9768CAB6601501007628423623084172 /* UISearchBar+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+QMUI.swift"; sourceTree = "<group>"; };
+		988074E316B63ED6275F4D4F1E6076B2 /* Pods-QMUISwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMUISwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB39A97FAF75E9589A4908D3090F521 /* Pods-QMUISwiftKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMUISwiftKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FD34EFFD5E4A0513EE9A326722E2AEF /* QMUICommonTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICommonTableViewController.swift; sourceTree = "<group>"; };
+		A0D650A0E5F46C258C904EC291022E1C /* QMUI_icloud_download_fault@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_icloud_download_fault@2x.png"; sourceTree = "<group>"; };
+		A29B1F9BCDC9516B9567111DC04D34BE /* QMUICommonDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICommonDefines.swift; sourceTree = "<group>"; };
+		A47159EB801121BFFDAA5B9C4A4EA350 /* QMUITabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITabBarViewController.swift; sourceTree = "<group>"; };
+		A66037FF2FC8D75886787C83A817320E /* QMUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITableView.swift; sourceTree = "<group>"; };
+		A668F3F85316C13217567E0ACFC4A85A /* NSParagraphStyle+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSParagraphStyle+QMUI.swift"; sourceTree = "<group>"; };
+		A7B6A56D70651634DA95844A2B7CF2BA /* UIWindow+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIWindow+QMUI.swift"; sourceTree = "<group>"; };
+		AA5B67C481618068F6F056E9124CB578 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB134D19E305993D8DE295B0E45D71F9 /* QMUIToastAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIToastAnimator.swift; sourceTree = "<group>"; };
+		ABBB68A1D71A3E6A1D185A58B7FCC9C7 /* UIViewController+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+QMUI.swift"; sourceTree = "<group>"; };
+		ACE3B4C0A0E66B1F2CB0453ADBB114C1 /* QMUIConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIConfiguration.swift; sourceTree = "<group>"; };
+		ADE79938205DD316A92A44A8F21DE92C /* QMUITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUITextView.swift; sourceTree = "<group>"; };
+		AE0DC6EC223584EF08965C76CD6519F7 /* Pods-QMUISwiftKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMUISwiftKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE6B0E8FA063401805CE78CE10CBD97F /* QMUISwiftKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMUISwiftKit.debug.xcconfig; sourceTree = "<group>"; };
+		AFDAAE29FB804CEBFD753CB612B6FD77 /* UIImage+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+QMUI.swift"; sourceTree = "<group>"; };
+		B08CE2455AF0ECC832FA25B88D90988A /* QMUI_previewImage_checkbox_checked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_previewImage_checkbox_checked@3x.png"; sourceTree = "<group>"; };
+		B11DC56EB5BF61D6A7F534C89FBE56E5 /* Pods-QMUISwiftKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMUISwiftKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B25FE01050295CE782B79E8A9A23237D /* QMUIImagePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePreviewViewController.swift; sourceTree = "<group>"; };
+		B286FA34F868E606D90F815242915501 /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		B2C378897C4FBF013687CD21B5A60814 /* Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bridging.h; path = QMUISwiftKit/Classes/Bridging.h; sourceTree = "<group>"; };
+		B340DA18C5B1484609E0FBE3476AF4E7 /* QMUISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUISearchBar.swift; sourceTree = "<group>"; };
+		B40C843954C0207F71177DD1AB256F9B /* UICollectionView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+QMUI.swift"; sourceTree = "<group>"; };
+		B529F22A2931D7EAA3906084F14498D6 /* image5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image5@2x.png"; sourceTree = "<group>"; };
+		B9787DAB1BC1687BB3262F47A7976C74 /* QMUIImagePreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePreviewView.swift; sourceTree = "<group>"; };
+		BA3B48E95D10C10CC315D782D6CF95DD /* UIBezierPath+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+QMUI.swift"; sourceTree = "<group>"; };
+		BD2FD19B89A81D9181EA71266A9FFA2D /* Pods-QMUISwiftKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMUISwiftKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		C2EF6C40D2E1D776D8EA874B93F4D758 /* Pods-QMUISwiftKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMUISwiftKit_Example-dummy.m"; sourceTree = "<group>"; };
+		C66A487131CA60D29BA460097F4D1E01 /* UIView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+QMUI.swift"; sourceTree = "<group>"; };
+		C8E8F012F2453CCBDEC726C581B11A05 /* QMUI_tips_done@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_done@2x.png"; sourceTree = "<group>"; };
+		CA462103CB05BD2F81EEE1C50C21F4B7 /* QMUIEmotionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIEmotionView.swift; sourceTree = "<group>"; };
+		CB88A5627A8B78BBAF51E17A4F2E04DB /* QMUINavigationButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUINavigationButton.swift; sourceTree = "<group>"; };
+		CC61896A29975C5C57908569B22710E9 /* QMUI_pickerImage_video_mark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_video_mark@2x.png"; sourceTree = "<group>"; };
+		CC9D27EEFA07F83D66B54B0C44D71783 /* QMUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIButton.swift; sourceTree = "<group>"; };
+		CCB0C5D1C1FD13D691C9843B4C205FCC /* image0@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image0@2x.png"; sourceTree = "<group>"; };
+		CE5DB154DEF369D958656A84E16AA81F /* QMUIPopupContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIPopupContainerView.swift; sourceTree = "<group>"; };
+		D09687B85D3917F21B4D7C75DC6672C9 /* Pods-QMUISwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMUISwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D1CCA8DC82DE60DB172B7C273E3EB547 /* String+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+QMUI.swift"; sourceTree = "<group>"; };
+		D1DF3568E8961B0C244EBD38FF7DCDC2 /* Pods-QMUISwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMUISwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D2B85A7A9A8A8CEA94B00D7C64EC15C2 /* QMUIMarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIMarqueeLabel.swift; sourceTree = "<group>"; };
+		D35F4876E9364187B18ECADFEF6CB034 /* QMUIImagePickerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePickerHelper.swift; sourceTree = "<group>"; };
+		D3C04F8E42EB279E6A969B470EF6F036 /* Pods-QMUISwiftKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMUISwiftKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D42CAAC60EE5BFE428B146601BB0601D /* QMUINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUINavigationController.swift; sourceTree = "<group>"; };
+		D5786DC98222DB2651F6734721A16D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D75431C25379F9E3E50FD7F88826120E /* QMUISwiftKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMUISwiftKit.release.xcconfig; sourceTree = "<group>"; };
+		D791359A487A1EF9C8E92EEDFD1C2347 /* QMUIFloatLayoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIFloatLayoutView.swift; sourceTree = "<group>"; };
+		D85FED8D45155BA3F53306EF5C2484B2 /* UIBarItem+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarItem+QMUI.swift"; sourceTree = "<group>"; };
+		D91F47DAF248937F0FDC4159CC7D4A9B /* QMUI_tips_info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_info@3x.png"; sourceTree = "<group>"; };
+		DA7A5C535AE571BF4C1C418EEA032195 /* QMUIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIAlertController.swift; sourceTree = "<group>"; };
+		DB51F5203FE64CF38B741FB4D68E6A8B /* QMUIImagePickerPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIImagePickerPreviewViewController.swift; sourceTree = "<group>"; };
+		DB7D675016F17DA65A6DCD61F87295E4 /* QMUI_tips_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_tips_error@2x.png"; sourceTree = "<group>"; };
+		DC50B43B858A069D26FBD0D414017C00 /* QMUIAlbumViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIAlbumViewController.swift; sourceTree = "<group>"; };
+		DEFFF2B32CD46D3D6A03E4C307887DA8 /* QMUIEmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIEmptyView.swift; sourceTree = "<group>"; };
+		E1B21AD7BC057D4B9195829ECF60DCE0 /* QMUICellHeightKeyCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUICellHeightKeyCache.swift; sourceTree = "<group>"; };
+		EA3BFDA1D0698C915536845CDD562506 /* image3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "image3@2x.png"; sourceTree = "<group>"; };
+		EC182C5C17FC020E29195646CC7C5988 /* QMUI_previewImage_checkbox@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_previewImage_checkbox@2x.png"; sourceTree = "<group>"; };
+		ED9C75E186DC306D3288E65BA13ED733 /* QMUISwiftKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMUISwiftKit; path = QMUISwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE7D664767A1C1E326CC4A4306AB390 /* QMUIAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIAsset.swift; sourceTree = "<group>"; };
+		EF91A816A418015B9356917668518562 /* UIGestureRecognizer+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+QMUI.swift"; sourceTree = "<group>"; };
+		F16EF6A9EA8338C6DC1EB828D44C9286 /* UITabBar+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+QMUI.swift"; sourceTree = "<group>"; };
+		F235BDA27F1D75C594F8CE2B5EAD2385 /* QMUIGhostButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIGhostButton.swift; sourceTree = "<group>"; };
+		F23B407ACFD15098463FD0F875371BA0 /* QMUIDialogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIDialogViewController.swift; sourceTree = "<group>"; };
+		F7108F6CADF5695C68443B2D20CDB8D5 /* QMUI_emotion_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_emotion_delete@3x.png"; sourceTree = "<group>"; };
+		F962B94A0B63319C5C0AC05803A719AD /* QMUIVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUIVisualEffectView.swift; sourceTree = "<group>"; };
+		F9BA787D7800B2AC618F952DECAC9F73 /* QMUISegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QMUISegmentedControl.swift; sourceTree = "<group>"; };
+		FDFE0A4B9F0315D1FA9CFF1BEC2067A0 /* UIImageView+QMUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+QMUI.swift"; sourceTree = "<group>"; };
+		FE448C0FF030E921801ECA9D57D0E21F /* QMUI_pickerImage_checkbox_checked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QMUI_pickerImage_checkbox_checked@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C86F43F42C72E22191033D77D29E8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C487701940F37FB44D0B5359C28DDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716313927101B3C6AFD8E923EA7B9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54B859E884D612FDC7C1809DEF7C9F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2BAB5EF83CF7F36A1D3FF979D7C01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92F743608C3CC4CAA69C11FAE15723A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007FC8516DA3A2F61816F18F4AE8F81A /* QMUIResources.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C94906A21C14A232FE30D5F401250BCD /* Contents */,
+			);
+			name = QMUIResources.bundle;
+			path = QMUIResources.bundle;
+			sourceTree = "<group>";
+		};
+		04AE8753E7A29EED1F1D8EB07A3B73D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4373A3E7CEC5C8F0C806919A19A632C6 /* images */,
+			);
+			name = Resources;
+			path = QMUISwiftKit/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		3B3531A1AA2B8C6814A9D1E22F0704C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				310697018EC471F5E31927ED5FC6B770 /* QMUISwiftKit.modulemap */,
+				3EECE31FC58F438719BB8D5DA41AF75A /* QMUISwiftKit-dummy.m */,
+				24FC9E7B9085AFBDFB73B09609A314A8 /* QMUISwiftKit-Info.plist */,
+				94CF226FBF53E3B6725117BBF7FB5B19 /* QMUISwiftKit-prefix.pch */,
+				69323928AA1FCC9BA2C99ADB73398E37 /* QMUISwiftKit-umbrella.h */,
+				AE6B0E8FA063401805CE78CE10CBD97F /* QMUISwiftKit.debug.xcconfig */,
+				D75431C25379F9E3E50FD7F88826120E /* QMUISwiftKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QMUISwiftKit";
+			sourceTree = "<group>";
+		};
+		41B9E8E5D3EDBAF06BEC5137F9782257 /* UIMainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				9FD34EFFD5E4A0513EE9A326722E2AEF /* QMUICommonTableViewController.swift */,
+				8AC297997668B9BAFEC6DA700F43E522 /* QMUICommonViewController.swift */,
+				D42CAAC60EE5BFE428B146601BB0601D /* QMUINavigationController.swift */,
+				A47159EB801121BFFDAA5B9C4A4EA350 /* QMUITabBarViewController.swift */,
+			);
+			name = UIMainFrame;
+			path = QMUISwiftKit/Classes/UIMainFrame;
+			sourceTree = "<group>";
+		};
+		4373A3E7CEC5C8F0C806919A19A632C6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CCB0C5D1C1FD13D691C9843B4C205FCC /* image0@2x.png */,
+				3F4F0426B8CBFBF9FA3A7C0D7223380C /* image1@2x.png */,
+				8CF237B665F50140C7F051A9AD04B2DA /* image2@2x.png */,
+				EA3BFDA1D0698C915536845CDD562506 /* image3@2x.png */,
+				3CBEA0F6B4E848942EA72E5860D194D5 /* image4@2x.png */,
+				B529F22A2931D7EAA3906084F14498D6 /* image5@2x.png */,
+				130B5E66A844C6CF3FE026503EC17BE1 /* image6@2x.png */,
+			);
+			name = images;
+			path = images;
+			sourceTree = "<group>";
+		};
+		48EBB2CBC50501DF298474276390A74A /* QMUIResources */ = {
+			isa = PBXGroup;
+			children = (
+				007FC8516DA3A2F61816F18F4AE8F81A /* QMUIResources.bundle */,
+			);
+			name = QMUIResources;
+			path = QMUISwiftKit/Classes/QMUIResources;
+			sourceTree = "<group>";
+		};
+		4CE5C656A4A80B9D69CD57D01F9FC720 /* AssetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EEE7D664767A1C1E326CC4A4306AB390 /* QMUIAsset.swift */,
+				6865056B2EF42FE9EA73FE7EA561959C /* QMUIAssetsGroup.swift */,
+				3EE4A25B7FD7071BC6D7620B0571DA82 /* QMUIAssetsManager.swift */,
+			);
+			name = AssetLibrary;
+			path = AssetLibrary;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		599E4B49D3974AA5F2CD8FCFA59184D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52BBD279FDD9CE71135F05A71B6575E8 /* QMUI_emotion_delete@2x.png */,
+				F7108F6CADF5695C68443B2D20CDB8D5 /* QMUI_emotion_delete@3x.png */,
+				A0D650A0E5F46C258C904EC291022E1C /* QMUI_icloud_download_fault@2x.png */,
+				72F1FE773134AEC97184497E7068EE22 /* QMUI_icloud_download_fault@3x.png */,
+				44F0C163D6D7EF9773D518FB4FA1484B /* QMUI_pickerImage_checkbox@2x.png */,
+				4DD3B806F4FBD1D25E96826BD011AA95 /* QMUI_pickerImage_checkbox@3x.png */,
+				FE448C0FF030E921801ECA9D57D0E21F /* QMUI_pickerImage_checkbox_checked@2x.png */,
+				4FF7A1206ACB43500280AF1C13120A67 /* QMUI_pickerImage_checkbox_checked@3x.png */,
+				CC61896A29975C5C57908569B22710E9 /* QMUI_pickerImage_video_mark@2x.png */,
+				8E0F3529077894386BCEC3B0069E2943 /* QMUI_pickerImage_video_mark@3x.png */,
+				EC182C5C17FC020E29195646CC7C5988 /* QMUI_previewImage_checkbox@2x.png */,
+				253654B5BDC2DA575CC31C05D352B2C4 /* QMUI_previewImage_checkbox@3x.png */,
+				299862361C6D96BE3038866C4EFF1CD3 /* QMUI_previewImage_checkbox_checked@2x.png */,
+				B08CE2455AF0ECC832FA25B88D90988A /* QMUI_previewImage_checkbox_checked@3x.png */,
+				C8E8F012F2453CCBDEC726C581B11A05 /* QMUI_tips_done@2x.png */,
+				461657808DD572B92F40ED6F55C0721C /* QMUI_tips_done@3x.png */,
+				DB7D675016F17DA65A6DCD61F87295E4 /* QMUI_tips_error@2x.png */,
+				05E38F5C1B7CE69A26C4651F2B0CCF24 /* QMUI_tips_error@3x.png */,
+				64A35B37926AEA23F92DB721B01D1DB0 /* QMUI_tips_info@2x.png */,
+				D91F47DAF248937F0FDC4159CC7D4A9B /* QMUI_tips_info@3x.png */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		65C64E4CABB4EC7A9460828105B86A7E /* Pods-QMUISwiftKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C194D8AF773158A03AF0B6DEEBA869D /* Pods-QMUISwiftKit_Tests.modulemap */,
+				9FB39A97FAF75E9589A4908D3090F521 /* Pods-QMUISwiftKit_Tests-acknowledgements.markdown */,
+				44984ECD955FB56E985EDC798253BCBC /* Pods-QMUISwiftKit_Tests-acknowledgements.plist */,
+				BD2FD19B89A81D9181EA71266A9FFA2D /* Pods-QMUISwiftKit_Tests-dummy.m */,
+				38780B2C252DA5CCCCEC34D7AC57EFAB /* Pods-QMUISwiftKit_Tests-Info.plist */,
+				D3C04F8E42EB279E6A969B470EF6F036 /* Pods-QMUISwiftKit_Tests-umbrella.h */,
+				88770F570292E592D81EEC790258FD57 /* Pods-QMUISwiftKit_Tests.debug.xcconfig */,
+				D09687B85D3917F21B4D7C75DC6672C9 /* Pods-QMUISwiftKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-QMUISwiftKit_Tests";
+			path = "Target Support Files/Pods-QMUISwiftKit_Tests";
+			sourceTree = "<group>";
+		};
+		7CF1901C8673BB4504E93614E6470D6E /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				B286FA34F868E606D90F815242915501 /* Curry.swift */,
+				A29B1F9BCDC9516B9567111DC04D34BE /* QMUICommonDefines.swift */,
+				ACE3B4C0A0E66B1F2CB0453ADBB114C1 /* QMUIConfiguration.swift */,
+				7729C32FA8BB4E54F525E67FFF31E4D7 /* QMUIConfigurationMacros.swift */,
+				6CFB21599E8555997FFF2B182B90FAD6 /* QMUIHelper.swift */,
+			);
+			name = UICommon;
+			path = QMUISwiftKit/Classes/UICommon;
+			sourceTree = "<group>";
+		};
+		7F113E88AF158C619D47BE6D29FD6343 /* ImagePickerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DC50B43B858A069D26FBD0D414017C00 /* QMUIAlbumViewController.swift */,
+				65092A2B5C94725900949EB508D6CB31 /* QMUIImagePickerCollectionViewCell.swift */,
+				D35F4876E9364187B18ECADFEF6CB034 /* QMUIImagePickerHelper.swift */,
+				DB51F5203FE64CF38B741FB4D68E6A8B /* QMUIImagePickerPreviewViewController.swift */,
+				235AB7E0190512A2C3A6DE294E823765 /* QMUIImagePickerViewController.swift */,
+			);
+			name = ImagePickerLibrary;
+			path = ImagePickerLibrary;
+			sourceTree = "<group>";
+		};
+		7FFF166FFCE50B4A04C1FBD1B6F042C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15A87431ECEB573DFDD55DC845B0F59 /* Pods-QMUISwiftKit_Example */,
+				65C64E4CABB4EC7A9460828105B86A7E /* Pods-QMUISwiftKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83CEEB686B2D0526F6217B0223873773 /* QMUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D27EEFA07F83D66B54B0C44D71783 /* QMUIButton.swift */,
+				96A4E6E4987C2FA7D3C54D2E4F1F32B3 /* QMUIFillButton.swift */,
+				F235BDA27F1D75C594F8CE2B5EAD2385 /* QMUIGhostButton.swift */,
+				404E4AAEBE525170C8BC7C98C8E0F19A /* QMUILinkButton.swift */,
+				CB88A5627A8B78BBAF51E17A4F2E04DB /* QMUINavigationButton.swift */,
+				13CEE6C8D9650016338248227FBCEA69 /* QMUIToolbarButton.swift */,
+			);
+			name = QMUIButton;
+			path = QMUIButton;
+			sourceTree = "<group>";
+		};
+		87F77F8D30718F2FB45CB1EE3B5C9203 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C956858F0D0B45785F8E941EDE49A027 /* QMUISwiftKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B1FAA9A3FEC6324B409ADC4363D9217 /* StaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				069EE6D4AC5AC6834DD0D6DB0BEC1E35 /* QMUIStaticTableViewCellDataSource.swift */,
+			);
+			name = StaticTableView;
+			path = StaticTableView;
+			sourceTree = "<group>";
+		};
+		AD61B58CD393F494CFE9C617F991A701 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B67C481618068F6F056E9124CB578 /* LICENSE */,
+				3E0B8A0326D5224E45A9E95B8909F95A /* QMUISwiftKit.podspec */,
+				D5786DC98222DB2651F6734721A16D8E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C94906A21C14A232FE30D5F401250BCD /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				764CFF981B3A1B10435D1DED24413C71 /* Info.plist */,
+				599E4B49D3974AA5F2CD8FCFA59184D1 /* Resources */,
+			);
+			name = Contents;
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		C956858F0D0B45785F8E941EDE49A027 /* QMUISwiftKit */ = {
+			isa = PBXGroup;
+			children = (
+				B2C378897C4FBF013687CD21B5A60814 /* Bridging.h */,
+				21DE7EFB9C6B632BD314A610539B74F5 /* SelfAware.swift */,
+				AD61B58CD393F494CFE9C617F991A701 /* Pod */,
+				48EBB2CBC50501DF298474276390A74A /* QMUIResources */,
+				04AE8753E7A29EED1F1D8EB07A3B73D1 /* Resources */,
+				3B3531A1AA2B8C6814A9D1E22F0704C4 /* Support Files */,
+				7CF1901C8673BB4504E93614E6470D6E /* UICommon */,
+				F3AEAF4E78733EA08A55150D4C374AC4 /* UIComponents */,
+				E4437D6C64104FCFFA4195D5FEE9848B /* UIKitExtensions */,
+				41B9E8E5D3EDBAF06BEC5137F9782257 /* UIMainFrame */,
+			);
+			name = QMUISwiftKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				87F77F8D30718F2FB45CB1EE3B5C9203 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8D9EDA078110D76240FD5FE68FAE118 /* Products */,
+				7FFF166FFCE50B4A04C1FBD1B6F042C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15A87431ECEB573DFDD55DC845B0F59 /* Pods-QMUISwiftKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9749B6AFCD847FFFE3A0BF56E4CE94B4 /* Pods-QMUISwiftKit_Example.modulemap */,
+				7CB0B3235E269D9EC52E4E1DD97DA20C /* Pods-QMUISwiftKit_Example-acknowledgements.markdown */,
+				0D6764EDF15DA51CA97D3D1B74364F5C /* Pods-QMUISwiftKit_Example-acknowledgements.plist */,
+				C2EF6C40D2E1D776D8EA874B93F4D758 /* Pods-QMUISwiftKit_Example-dummy.m */,
+				AE0DC6EC223584EF08965C76CD6519F7 /* Pods-QMUISwiftKit_Example-frameworks.sh */,
+				14650D978E61674C04DC5692A061ABC4 /* Pods-QMUISwiftKit_Example-Info.plist */,
+				B11DC56EB5BF61D6A7F534C89FBE56E5 /* Pods-QMUISwiftKit_Example-umbrella.h */,
+				988074E316B63ED6275F4D4F1E6076B2 /* Pods-QMUISwiftKit_Example.debug.xcconfig */,
+				D1DF3568E8961B0C244EBD38FF7DCDC2 /* Pods-QMUISwiftKit_Example.release.xcconfig */,
+			);
+			name = "Pods-QMUISwiftKit_Example";
+			path = "Target Support Files/Pods-QMUISwiftKit_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4437D6C64104FCFFA4195D5FEE9848B /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AA8D5A9810F32288176C85B181E1 /* Array+QMUI.swift */,
+				0B68EE9D7A6FA97D22BE7A16FF5932B2 /* CALayer+QMUI.swift */,
+				350D8AAEEA56B47B3539743DC88BF4AB /* DispatchQueue+QMUI.swift */,
+				60E995A91BC7F776234F85B173A5C8A2 /* NSAttributedString+QMUI.swift */,
+				7644D320053D9CA3F8B39E864583116B /* NSObject+QMUI.swift */,
+				A668F3F85316C13217567E0ACFC4A85A /* NSParagraphStyle+QMUI.swift */,
+				DA7A5C535AE571BF4C1C418EEA032195 /* QMUIAlertController.swift */,
+				6B354C8492322EA77C257CB187E180E9 /* QMUICellHeightIndexPathCache.swift */,
+				E1B21AD7BC057D4B9195829ECF60DCE0 /* QMUICellHeightKeyCache.swift */,
+				4F9AAF6B94E0EA2FF8E28DB8D5E67B3B /* QMUICollectionViewPagingLayout.swift */,
+				8BF6914124ACD6E8F1F8601E7BE390B5 /* QMUILabel.swift */,
+				B340DA18C5B1484609E0FBE3476AF4E7 /* QMUISearchBar.swift */,
+				80FF88AAE8433CDE00801BD0DD535E62 /* QMUISearchController.swift */,
+				F9BA787D7800B2AC618F952DECAC9F73 /* QMUISegmentedControl.swift */,
+				07C6E716E15EBAE9C3D2D93806730FD7 /* QMUISlider.swift */,
+				A66037FF2FC8D75886787C83A817320E /* QMUITableView.swift */,
+				3C58ED68A0D27F025ACB5F3C06C93F80 /* QMUITableViewCell.swift */,
+				41A138DCA537DAAC2704E6C976D21870 /* QMUITableViewProtocols.swift */,
+				6B41D8A96A9814FB5D0EF262B2A47177 /* QMUITextField.swift */,
+				ADE79938205DD316A92A44A8F21DE92C /* QMUITextView.swift */,
+				D1CCA8DC82DE60DB172B7C273E3EB547 /* String+QMUI.swift */,
+				2BF22916AE81D684F796C8CA31C9DD73 /* UIActivityIndicatorView+QMUI.swift */,
+				D85FED8D45155BA3F53306EF5C2484B2 /* UIBarItem+QMUI.swift */,
+				BA3B48E95D10C10CC315D782D6CF95DD /* UIBezierPath+QMUI.swift */,
+				8C1A02FFB50E98D45FEFDDE03FAD5B56 /* UIButton+QMUI.swift */,
+				B40C843954C0207F71177DD1AB256F9B /* UICollectionView+QMUI.swift */,
+				86A605B4B1108165BA2F4044E2346C43 /* UIColor+QMUI.swift */,
+				3464EE97A2F2BE3B764B48AD4D025A2B /* UIControl+QMUI.swift */,
+				15926F211328449157079AF1E2E88722 /* UIFont+QMUI.swift */,
+				EF91A816A418015B9356917668518562 /* UIGestureRecognizer+QMUI.swift */,
+				AFDAAE29FB804CEBFD753CB612B6FD77 /* UIImage+QMUI.swift */,
+				FDFE0A4B9F0315D1FA9CFF1BEC2067A0 /* UIImageView+QMUI.swift */,
+				0BBBAFC13BBD613BD7C7627965A27AD1 /* UILabel+QMUI.swift */,
+				5650CF179EEC1892554FFDCCF4EBEB66 /* UINavigationBar+Transition.swift */,
+				677B5F042E50AE249BFBD2373D20AEFB /* UINavigationController+NavigationBarTransition.swift */,
+				89C0D3B000574F216D5734DD80B4DC45 /* UINavigationController+QMUI.swift */,
+				8F53F155D80170FBDBE32769D12EBE31 /* UIScrollView+QMUI.swift */,
+				9768CAB6601501007628423623084172 /* UISearchBar+QMUI.swift */,
+				F16EF6A9EA8338C6DC1EB828D44C9286 /* UITabBar+QMUI.swift */,
+				2E6D3AA27017D59DE8108177B5026874 /* UITabBarItem+QMUI.swift */,
+				451FABA23625EB080A2950D4E67903CD /* UITableView+QMUI.swift */,
+				6C39BD91169D426E563D5E64D502F093 /* UITextField+QMUI.swift */,
+				5CA33FA1CE0208F53F9E1949041F0AD6 /* UITextView+QMUI.swift */,
+				C66A487131CA60D29BA460097F4D1E01 /* UIView+QMUI.swift */,
+				ABBB68A1D71A3E6A1D185A58B7FCC9C7 /* UIViewController+QMUI.swift */,
+				A7B6A56D70651634DA95844A2B7CF2BA /* UIWindow+QMUI.swift */,
+			);
+			name = UIKitExtensions;
+			path = QMUISwiftKit/Classes/UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		E8D9EDA078110D76240FD5FE68FAE118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D24788CE44721F7F3E1AAFFA0B726C /* Pods-QMUISwiftKit_Example */,
+				32A72E07DF64481343024172400C054B /* Pods-QMUISwiftKit_Tests */,
+				ED9C75E186DC306D3288E65BA13ED733 /* QMUISwiftKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3AEAF4E78733EA08A55150D4C374AC4 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F23B407ACFD15098463FD0F875371BA0 /* QMUIDialogViewController.swift */,
+				7A2E72C29CBE3AE14DD749CCCF3EB2FF /* QMUIEmotionInputManager.swift */,
+				CA462103CB05BD2F81EEE1C50C21F4B7 /* QMUIEmotionView.swift */,
+				DEFFF2B32CD46D3D6A03E4C307887DA8 /* QMUIEmptyView.swift */,
+				D791359A487A1EF9C8E92EEDFD1C2347 /* QMUIFloatLayoutView.swift */,
+				636B3D635DE71576E68B72679551D4AF /* QMUIGridView.swift */,
+				B9787DAB1BC1687BB3262F47A7976C74 /* QMUIImagePreviewView.swift */,
+				B25FE01050295CE782B79E8A9A23237D /* QMUIImagePreviewViewController.swift */,
+				6CE704B49D005BD642CA0BE90366ECFC /* QMUIKeyboardManager.swift */,
+				D2B85A7A9A8A8CEA94B00D7C64EC15C2 /* QMUIMarqueeLabel.swift */,
+				53823C064800228339FCA84BFC8918E8 /* QMUIModalPresentationViewController.swift */,
+				80D91319AD1BBE3784791119182A40FF /* QMUIMoreOperationController.swift */,
+				6FAC783954BABE2598DB87EE7F0D37E3 /* QMUINavigationTitleView.swift */,
+				673E20984414DDC0998F9FB094A326C2 /* QMUIOrderedDictionary.swift */,
+				9214B08017542D6888EF86E7087A8D43 /* QMUIPieProgressView.swift */,
+				CE5DB154DEF369D958656A84E16AA81F /* QMUIPopupContainerView.swift */,
+				5FB373FBCA639BBF84E5416A065524AC /* QMUIPopupMenuView.swift */,
+				1E072AA063057B71B528985AB80B8657 /* QMUIQQEmotionManager.swift */,
+				3D5EAB10B79C906B3466B720D183453F /* QMUITableViewHeaderFooterView.swift */,
+				337CA50CFBB0636F8DE9B0ED8F0B851D /* QMUITestView.swift */,
+				83C6B6D70C32D8C4C921107422C929C8 /* QMUITips.swift */,
+				AB134D19E305993D8DE295B0E45D71F9 /* QMUIToastAnimator.swift */,
+				7CCD93BF9346203BF8B975C733147E6E /* QMUIToastBackgroundView.swift */,
+				7802BBC3E3BBBA74BE5BA3BBA68F5E57 /* QMUIToastContentView.swift */,
+				5F8B404B835800E33B3B73EA958ABEDD /* QMUIToastView.swift */,
+				F962B94A0B63319C5C0AC05803A719AD /* QMUIVisualEffectView.swift */,
+				914339F9E5FDD37B45A417D361EBB07F /* QMUIZoomImageView.swift */,
+				4CE5C656A4A80B9D69CD57D01F9FC720 /* AssetLibrary */,
+				7F113E88AF158C619D47BE6D29FD6343 /* ImagePickerLibrary */,
+				83CEEB686B2D0526F6217B0223873773 /* QMUIButton */,
+				8B1FAA9A3FEC6324B409ADC4363D9217 /* StaticTableView */,
+			);
+			name = UIComponents;
+			path = QMUISwiftKit/Classes/UIComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9B5679C488CAC71331742D19DC66F84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D05C9257A75C4E0737171839CC71F4 /* Pods-QMUISwiftKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91E0DFA22B8B63CD8415652BBFD6CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C13AE4865438001F9A1EBAAA829E72C /* Bridging.h in Headers */,
+				96915C610E845FE6C900028017799EDC /* QMUISwiftKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12786C7C5B5FEB2CCE856265A4786B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881AD60FD3DBD2413DC16F56475C108B /* Pods-QMUISwiftKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		114DEFCBFB36B7B322A27DE7AC5D034E /* Pods-QMUISwiftKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFFFD71F428D2D00CC0DA37E4E43361 /* Build configuration list for PBXNativeTarget "Pods-QMUISwiftKit_Example" */;
+			buildPhases = (
+				A9B5679C488CAC71331742D19DC66F84 /* Headers */,
+				5B66274AC8D4E2C7E3E9044190BB1FCF /* Sources */,
+				EF2BAB5EF83CF7F36A1D3FF979D7C01E /* Frameworks */,
+				9488FBAB9AF920C9025D855BBB4B42BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1D5740BB18CED820A94E9B165565D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMUISwiftKit_Example";
+			productName = Pods_QMUISwiftKit_Example;
+			productReference = 47D24788CE44721F7F3E1AAFFA0B726C /* Pods-QMUISwiftKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4454B285FDF8388854DAEC601A6C40E5 /* Pods-QMUISwiftKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA65BD4758C3316DFCC827381938ED56 /* Build configuration list for PBXNativeTarget "Pods-QMUISwiftKit_Tests" */;
+			buildPhases = (
+				D12786C7C5B5FEB2CCE856265A4786B7 /* Headers */,
+				F83BA339A8D6A5E1FE6E05AF91783980 /* Sources */,
+				1C86F43F42C72E22191033D77D29E8DA /* Frameworks */,
+				A6304D9ED67CBB07EA3691C418E2507C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECCD9E8D9D7529745F89BA4ABE0EF3C /* PBXTargetDependency */,
+			);
+			name = "Pods-QMUISwiftKit_Tests";
+			productName = Pods_QMUISwiftKit_Tests;
+			productReference = 32A72E07DF64481343024172400C054B /* Pods-QMUISwiftKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7732D9CE4D30179195A6E5E8EA75BC1 /* QMUISwiftKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A5723A8C01501D3DD3194FB507370C /* Build configuration list for PBXNativeTarget "QMUISwiftKit" */;
+			buildPhases = (
+				C91E0DFA22B8B63CD8415652BBFD6CD2 /* Headers */,
+				5073110514BEC16105527771D7DE55AE /* Sources */,
+				D716313927101B3C6AFD8E923EA7B9B7 /* Frameworks */,
+				7F3B6497EB0DCEE57517FF24A2147976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMUISwiftKit;
+			productName = QMUISwiftKit;
+			productReference = ED9C75E186DC306D3288E65BA13ED733 /* QMUISwiftKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E8D9EDA078110D76240FD5FE68FAE118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114DEFCBFB36B7B322A27DE7AC5D034E /* Pods-QMUISwiftKit_Example */,
+				4454B285FDF8388854DAEC601A6C40E5 /* Pods-QMUISwiftKit_Tests */,
+				B7732D9CE4D30179195A6E5E8EA75BC1 /* QMUISwiftKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3B6497EB0DCEE57517FF24A2147976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9488FBAB9AF920C9025D855BBB4B42BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6304D9ED67CBB07EA3691C418E2507C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5073110514BEC16105527771D7DE55AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4B0211675ACD7E5D3F78F61E176D8D /* Array+QMUI.swift in Sources */,
+				18B4878A08C665595A5798283B40242D /* CALayer+QMUI.swift in Sources */,
+				9956782AA64353013103289BABA9DAD5 /* Curry.swift in Sources */,
+				5216C56F70DAA11298D580F1074D6B6B /* DispatchQueue+QMUI.swift in Sources */,
+				4402D023A414B90CAE8C5BA54E614A15 /* image0@2x.png in Sources */,
+				C1655028187B88661A9A2EF28A136DE2 /* image1@2x.png in Sources */,
+				D77DBF47977BCE294AECF845B8761E7E /* image2@2x.png in Sources */,
+				4F2A2104D0D8044D9032CF4799E0BC96 /* image3@2x.png in Sources */,
+				AB2A14AE5942C51A703200F14C4CD41D /* image4@2x.png in Sources */,
+				27A8814685738A1925B889C206263DD3 /* image5@2x.png in Sources */,
+				9A7844BA40E16311CEAA55184E41821C /* image6@2x.png in Sources */,
+				C508A93B9B35EACBEA9CA5CBD9E0D1B0 /* Info.plist in Sources */,
+				00558861DB4C484D1930B0229AA7793F /* NSAttributedString+QMUI.swift in Sources */,
+				206E198563D23D14A6E0591BA94E18D3 /* NSObject+QMUI.swift in Sources */,
+				4CD8A8554A885A97B28BEAE0FA050F5A /* NSParagraphStyle+QMUI.swift in Sources */,
+				561FB8F1E0DB54804454BB8B77D75C90 /* QMUI_emotion_delete@2x.png in Sources */,
+				D0B7A879E7C3050F6B3E96A5D956DF43 /* QMUI_emotion_delete@3x.png in Sources */,
+				33B9567C6893369D28868A28273C3C4C /* QMUI_icloud_download_fault@2x.png in Sources */,
+				BA4ED19130B5D66C7F4A91674F91816B /* QMUI_icloud_download_fault@3x.png in Sources */,
+				9875D8BAB38C81DA077FF5317A13101E /* QMUI_pickerImage_checkbox@2x.png in Sources */,
+				C865C116359AF45E3238DE3EC2770B86 /* QMUI_pickerImage_checkbox@3x.png in Sources */,
+				3D3073808FAFA6DD9E28AECA72B0ED98 /* QMUI_pickerImage_checkbox_checked@2x.png in Sources */,
+				521133E36237BFF29057FEE1C5798562 /* QMUI_pickerImage_checkbox_checked@3x.png in Sources */,
+				F1B47C7FD478C24089D55C89E6ABC398 /* QMUI_pickerImage_video_mark@2x.png in Sources */,
+				4FA31A7E332D22AE497160116E177045 /* QMUI_pickerImage_video_mark@3x.png in Sources */,
+				6EA4286E497AD45F2C10DD6D152DF09E /* QMUI_previewImage_checkbox@2x.png in Sources */,
+				CB0AA98D5DE30DA8BA50E6522577B3C4 /* QMUI_previewImage_checkbox@3x.png in Sources */,
+				D11752893DB8D34B417D9F2B28D4EFA0 /* QMUI_previewImage_checkbox_checked@2x.png in Sources */,
+				C628C985052BE7E8FCFF2559F466F06F /* QMUI_previewImage_checkbox_checked@3x.png in Sources */,
+				55B1CC4D5DAE6BB72EFEA201D98EFEA0 /* QMUI_tips_done@2x.png in Sources */,
+				CB032DE7DF608B48D24C120D94BEFB9C /* QMUI_tips_done@3x.png in Sources */,
+				92A3E44006979D8CA608974743BDE2B2 /* QMUI_tips_error@2x.png in Sources */,
+				0A4E4A1A35FAE2CE942951DACF563EDB /* QMUI_tips_error@3x.png in Sources */,
+				6ADADBF89AC12D63DD1C399815435613 /* QMUI_tips_info@2x.png in Sources */,
+				54B1D9EFA2C71F4A0E08F54F30B4C05F /* QMUI_tips_info@3x.png in Sources */,
+				2CB3EEA95AAB35D422B8FEC9CA8FB737 /* QMUIAlbumViewController.swift in Sources */,
+				B79FC341A3A90346D2BD9194BDC23129 /* QMUIAlertController.swift in Sources */,
+				5A02E652815D45679455B49660B56B04 /* QMUIAsset.swift in Sources */,
+				B9D91722A66FB4BF495CCE050C5DED9A /* QMUIAssetsGroup.swift in Sources */,
+				CA71D2EC927A0B25323C8BF81627F6CF /* QMUIAssetsManager.swift in Sources */,
+				B4F018AEAF0CD7F428F446910998FCF6 /* QMUIButton.swift in Sources */,
+				89B4D51332C0918FD5BD3618C0D32552 /* QMUICellHeightIndexPathCache.swift in Sources */,
+				70F1A2C16F7AEF7932ECFAA755A6F67D /* QMUICellHeightKeyCache.swift in Sources */,
+				6C44F04CB28DC6787A75216988E49D72 /* QMUICollectionViewPagingLayout.swift in Sources */,
+				D4D7B57E58101D2CFD702F79B34C943B /* QMUICommonDefines.swift in Sources */,
+				5AC3899BC915C15B36F3D24F182DDED3 /* QMUICommonTableViewController.swift in Sources */,
+				A24345FF7FCB67E0D00844E06DC8CD23 /* QMUICommonViewController.swift in Sources */,
+				BD3D655B4D813D8DBE0BF21A2913A9C6 /* QMUIConfiguration.swift in Sources */,
+				182AB2DB398BE01FACAA882523EC0440 /* QMUIConfigurationMacros.swift in Sources */,
+				5CD28F45D3EE114EBE9C7FB712A4140C /* QMUIDialogViewController.swift in Sources */,
+				AB19D1E46F503871A27D9935D93AAA03 /* QMUIEmotionInputManager.swift in Sources */,
+				B2090CAC7173F8A2766CD78655BC1D27 /* QMUIEmotionView.swift in Sources */,
+				79A7F8CBB48CA5049E3FBF4729CF19B9 /* QMUIEmptyView.swift in Sources */,
+				152ABB7B591CE33D4B223C3113A6B807 /* QMUIFillButton.swift in Sources */,
+				001A9BB7DE020EC9556EF01AFC622E0F /* QMUIFloatLayoutView.swift in Sources */,
+				12E76B6FFF194DD0F48BB753BDD38C75 /* QMUIGhostButton.swift in Sources */,
+				9332E7C379E6BEEF4D41244C8283AE63 /* QMUIGridView.swift in Sources */,
+				8FF09AA4AE79119273A815658E0FEEE8 /* QMUIHelper.swift in Sources */,
+				A5779D391FE07966772973281967E96F /* QMUIImagePickerCollectionViewCell.swift in Sources */,
+				2A0AA881DFB2652BEBAAFE60A22ADB46 /* QMUIImagePickerHelper.swift in Sources */,
+				916262C3BC8F7C5FF947CAB5708CA695 /* QMUIImagePickerPreviewViewController.swift in Sources */,
+				73DFACBB3D4A7F51775A12FF1E9CD3E4 /* QMUIImagePickerViewController.swift in Sources */,
+				E0FFC35BA34ECA5FCAD0EB60EFB07634 /* QMUIImagePreviewView.swift in Sources */,
+				DDBA01C5BC04494315FA14FDD4E23A90 /* QMUIImagePreviewViewController.swift in Sources */,
+				7994695AE7AAFEAD641707CDFC229630 /* QMUIKeyboardManager.swift in Sources */,
+				9F0E880ED22A7E94969AE5F718FAD1BF /* QMUILabel.swift in Sources */,
+				36A99D125F717930AD0549068C006C23 /* QMUILinkButton.swift in Sources */,
+				6A5C1AFBCF970A8AEC9B170A1E46B570 /* QMUIMarqueeLabel.swift in Sources */,
+				F890D6D06C2838B6237D8BE559409A93 /* QMUIModalPresentationViewController.swift in Sources */,
+				CDD2E79A8C83D11C5997DCF73E4F61AB /* QMUIMoreOperationController.swift in Sources */,
+				7BB07016840B9D48BB89432AF980E429 /* QMUINavigationButton.swift in Sources */,
+				FEBCCF5C91B8BC1183BDCCE58C63CD52 /* QMUINavigationController.swift in Sources */,
+				A404F940C6B477849742A3667F6055C9 /* QMUINavigationTitleView.swift in Sources */,
+				FD19589A2088778D08299E0880D661BF /* QMUIOrderedDictionary.swift in Sources */,
+				BC8B0BB4EDE0694896D83AB4AA050B35 /* QMUIPieProgressView.swift in Sources */,
+				29CFCDA0C29234ECACF3EF8F38B4D726 /* QMUIPopupContainerView.swift in Sources */,
+				C747541A41FB75F2DA4A307893675A80 /* QMUIPopupMenuView.swift in Sources */,
+				703726E793889C189478F788E2FF7E18 /* QMUIQQEmotionManager.swift in Sources */,
+				CF0C4E5490B176B79C33A5D189946B35 /* QMUISearchBar.swift in Sources */,
+				5046FA7D09FEB68BF3D60280FA34CBA8 /* QMUISearchController.swift in Sources */,
+				C15733C5AADE8C2E8B0924E4B0ADBF29 /* QMUISegmentedControl.swift in Sources */,
+				777631EA0001AB50E691519F108F79A6 /* QMUISlider.swift in Sources */,
+				664F7AB6BBC1980ED778A2AAE227FB28 /* QMUIStaticTableViewCellDataSource.swift in Sources */,
+				051A84CC1D4EB6ABC45ADCA1D80CE6FB /* QMUISwiftKit-dummy.m in Sources */,
+				3B084300C42C07005B62A870155A6698 /* QMUITabBarViewController.swift in Sources */,
+				4FD1E108883796E94A5E40DD2A85CC52 /* QMUITableView.swift in Sources */,
+				DBD402236B269332E5132785AF8512EC /* QMUITableViewCell.swift in Sources */,
+				6FED765F31DE0526C9DEDF3F5A34DE18 /* QMUITableViewHeaderFooterView.swift in Sources */,
+				9683ED5B51DFD684F418BEFE261DF16D /* QMUITableViewProtocols.swift in Sources */,
+				3FC480F2F33ACC2A3D3F37B77D0D7D8D /* QMUITestView.swift in Sources */,
+				5CAC3DB7BB5A87B8251A0F37D1C43E14 /* QMUITextField.swift in Sources */,
+				157663423CC5F94CA6D31EEEF80BF000 /* QMUITextView.swift in Sources */,
+				378F187D01F108E88E0F0EFAF803B9EE /* QMUITips.swift in Sources */,
+				8F18F91AEDEC91407B481F59784C5CB7 /* QMUIToastAnimator.swift in Sources */,
+				3BE751E37FD7B34701B47491FC363727 /* QMUIToastBackgroundView.swift in Sources */,
+				0BCCBBA752159CD2E57BE374CBB37157 /* QMUIToastContentView.swift in Sources */,
+				A14999772EB480780593662D8B8A54C6 /* QMUIToastView.swift in Sources */,
+				DEBD0285CB59A24B58CFF63BDD3D4B23 /* QMUIToolbarButton.swift in Sources */,
+				82755AF8CC8C7FA38FD16EDE18F9B734 /* QMUIVisualEffectView.swift in Sources */,
+				F9419D6FA71457473EEA525EFA052B39 /* QMUIZoomImageView.swift in Sources */,
+				7D1E4A8A01126ADE2A9CFDA9A885F73D /* SelfAware.swift in Sources */,
+				82D8E8C5FAE0D0E97E5007D255B085C7 /* String+QMUI.swift in Sources */,
+				DE1534612249C22C44A285303C2C0D83 /* UIActivityIndicatorView+QMUI.swift in Sources */,
+				327F463BA785194B445F18CF13513576 /* UIBarItem+QMUI.swift in Sources */,
+				7A531606ACC04877ABA4835C5A5F20C4 /* UIBezierPath+QMUI.swift in Sources */,
+				8636B4B20CD1152645BFA2453D8DA191 /* UIButton+QMUI.swift in Sources */,
+				8D977316290FC57BC180B485F1D3EEC3 /* UICollectionView+QMUI.swift in Sources */,
+				165DF374D65908FAF21A5056F2A143FA /* UIColor+QMUI.swift in Sources */,
+				9C26D30724788621849DC478D284CA6E /* UIControl+QMUI.swift in Sources */,
+				3AD76676D8616F1334A7AA65EC3AC8EC /* UIFont+QMUI.swift in Sources */,
+				68AB1873D5E61EE3A76E4FD035172617 /* UIGestureRecognizer+QMUI.swift in Sources */,
+				3B15F9F9B4EEE4FA12098D9AB9CC1A9D /* UIImage+QMUI.swift in Sources */,
+				2133034EEEE062346679D28990DF4856 /* UIImageView+QMUI.swift in Sources */,
+				A6CA68F5643B5B26275F251E6BFDBBC9 /* UILabel+QMUI.swift in Sources */,
+				1B65069A1E3199D9C69B28D260CE712D /* UINavigationBar+Transition.swift in Sources */,
+				AF8A6FA73A384A16E58202CFD605BFE8 /* UINavigationController+NavigationBarTransition.swift in Sources */,
+				53B2E95C7B11A3CDC3B7EB59918650C8 /* UINavigationController+QMUI.swift in Sources */,
+				426EF292821FCE4D2C625D4A2B5D6D22 /* UIScrollView+QMUI.swift in Sources */,
+				447078628A3BED51CF4942AFF0859E7C /* UISearchBar+QMUI.swift in Sources */,
+				EF9B8BAE49B929F7854E003280058F9F /* UITabBar+QMUI.swift in Sources */,
+				300F7EEDA3F96B0C65762D4E99080882 /* UITabBarItem+QMUI.swift in Sources */,
+				778E6DA652791A50D432B8C8C441BCC3 /* UITableView+QMUI.swift in Sources */,
+				DD8ACA993F0850233D49759D367954D2 /* UITextField+QMUI.swift in Sources */,
+				30BDCE25510CEDEC8881B8C12800CC49 /* UITextView+QMUI.swift in Sources */,
+				2F16C2658C0595841EA4CB7C5DB6D5C6 /* UIView+QMUI.swift in Sources */,
+				CA3ADF46F7731D620674D0664A717CC8 /* UIViewController+QMUI.swift in Sources */,
+				7D9006FFCDA3D5007BA51D6B4A375F86 /* UIWindow+QMUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B66274AC8D4E2C7E3E9044190BB1FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A9214E3BC287F9904141DC7DDE7071 /* Pods-QMUISwiftKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83BA339A8D6A5E1FE6E05AF91783980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DD0F0980CDD40CC23289044D8808FA /* Pods-QMUISwiftKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1D5740BB18CED820A94E9B165565D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMUISwiftKit;
+			target = B7732D9CE4D30179195A6E5E8EA75BC1 /* QMUISwiftKit */;
+			targetProxy = FE50D3F1B56238B3BD8067EC212853B2 /* PBXContainerItemProxy */;
+		};
+		FECCD9E8D9D7529745F89BA4ABE0EF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QMUISwiftKit_Example";
+			target = 114DEFCBFB36B7B322A27DE7AC5D034E /* Pods-QMUISwiftKit_Example */;
+			targetProxy = 359E1B77FB1C7C6817A2D1C59700827D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0070744C26079E8048545815254FAE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6B0E8FA063401805CE78CE10CBD97F /* QMUISwiftKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUISwiftKit/QMUISwiftKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUISwiftKit/QMUISwiftKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUISwiftKit/QMUISwiftKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUISwiftKit;
+				PRODUCT_NAME = QMUISwiftKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09D82199DE1F2C099792F6FCC07A9C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75431C25379F9E3E50FD7F88826120E /* QMUISwiftKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUISwiftKit/QMUISwiftKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUISwiftKit/QMUISwiftKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUISwiftKit/QMUISwiftKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUISwiftKit;
+				PRODUCT_NAME = QMUISwiftKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4EEF5646D025C9ED024E1B32379F95DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DF3568E8961B0C244EBD38FF7DCDC2 /* Pods-QMUISwiftKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C61DE699A6A8280DBC5CFFEF3B54F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88770F570292E592D81EEC790258FD57 /* Pods-QMUISwiftKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMUISwiftKit_Tests/Pods-QMUISwiftKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMUISwiftKit_Tests/Pods-QMUISwiftKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9887641D229FF95A1790DA7240B4908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09687B85D3917F21B4D7C75DC6672C9 /* Pods-QMUISwiftKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMUISwiftKit_Tests/Pods-QMUISwiftKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMUISwiftKit_Tests/Pods-QMUISwiftKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADFB76DE846F83F64D243944F4E7A61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988074E316B63ED6275F4D4F1E6076B2 /* Pods-QMUISwiftKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A5723A8C01501D3DD3194FB507370C /* Build configuration list for PBXNativeTarget "QMUISwiftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0070744C26079E8048545815254FAE9D /* Debug */,
+				09D82199DE1F2C099792F6FCC07A9C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFFFD71F428D2D00CC0DA37E4E43361 /* Build configuration list for PBXNativeTarget "Pods-QMUISwiftKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB76DE846F83F64D243944F4E7A61E /* Debug */,
+				4EEF5646D025C9ED024E1B32379F95DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA65BD4758C3316DFCC827381938ED56 /* Build configuration list for PBXNativeTarget "Pods-QMUISwiftKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61DE699A6A8280DBC5CFFEF3B54F9F /* Debug */,
+				9887641D229FF95A1790DA7240B4908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

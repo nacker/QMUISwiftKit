@@ -1,0 +1,16 @@
+PODS:
+  - QMUISwiftKit (0.1.0)
+
+DEPENDENCIES:
+  - QMUISwiftKit (from `../`)
+
+EXTERNAL SOURCES:
+  QMUISwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QMUISwiftKit: 467da48dbe83c33892d2cc4d7de5501f221f3bc6
+
+PODFILE CHECKSUM: 6a4aa0fe4bc3c5426bd4c416d506fb296026e6c7
+
+COCOAPODS: 1.11.2
