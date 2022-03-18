@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0F5AA8673D01FA5766F382E8 /* Pods-QMUISwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUISwiftKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QMUISwiftKit_Tests/Pods-QMUISwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3112756F28E96D5955CF9548 /* QMUISwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QMUISwiftKit.podspec; path = ../QMUISwiftKit.podspec; sourceTree = "<group>"; };
-		45494DCA7CDDBF0A5C39C9F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3112756F28E96D5955CF9548 /* QMUISwiftKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QMUISwiftKit.podspec; path = ../QMUISwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45494DCA7CDDBF0A5C39C9F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E362D18F7D8A097A8A671A8 /* Pods-QMUISwiftKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUISwiftKit_Example.release.xcconfig"; path = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QMUISwiftKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMUISwiftKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* QMUISwiftKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMUISwiftKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8EA8741C345BDAC4C4A8D72B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8EA8741C345BDAC4C4A8D72B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BECCFD3341D4605C70C317A6 /* Pods-QMUISwiftKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUISwiftKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-QMUISwiftKit_Example/Pods-QMUISwiftKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C104E15249E2F42793EA14C0 /* Pods_QMUISwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUISwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7CE4F2455D721C7B3049D3 /* Pods_QMUISwiftKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUISwiftKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				F5E747D7DD3B3E028D780E02 /* Pods-QMUISwiftKit_Tests.debug.xcconfig */,
 				0F5AA8673D01FA5766F382E8 /* Pods-QMUISwiftKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
